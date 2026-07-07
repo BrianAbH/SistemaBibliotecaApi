@@ -26,6 +26,12 @@ namespace ApiBiblioteca.Controllers
             return await _context.prestamos.ToListAsync();
         }
 
+        [HttpGet("activos")]
+        public async Task<ActionResult<IEnumerable<prestamos>>> GetPrestamosActivos()
+        {
+            return await _context.prestamos.Where(p => p.estado == "En Préstamo").ToListAsync();
+        }
+
         // GET: api/prestamos/5
         [HttpGet("{id}")]
         public async Task<ActionResult<prestamos>> Getprestamo(int id)
