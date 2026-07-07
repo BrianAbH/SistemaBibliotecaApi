@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ApiBiblioteca/ApiBiblioteca.csproj" />
+  <Project Path="databaseFirst/databaseFirst.csproj" DisplayName="DataBaseFirst" Id="8ad54f66-92ca-46ca-bfa6-9393dd10765d" />
+</Solution>
