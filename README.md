@@ -68,13 +68,3 @@ Ejemplo rápido
 	"fechaDevolucion": "2026-07-21",
 	"estado": true
   }
-
-Buenas prácticas
-----------------
-
-- No almacenar credenciales en código fuente; usar secretos de usuario, variables de entorno o Azure Key Vault en despliegues.
-- Validar entradas en los endpoints antes de persistir.
-
-Contacto
---------
-Repositorio: https://github.com/BrianAbH/SistemaBibliotecaApi
